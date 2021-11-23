@@ -6,9 +6,6 @@ class ContextApplication :Application() {
     companion object{
         lateinit var instance:ContextApplication
     }
-
-
-
     override fun onCreate() {
         super.onCreate()
         instance=this
