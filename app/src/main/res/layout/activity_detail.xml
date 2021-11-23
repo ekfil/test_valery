@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.DetailActivity">
+
+    <TextView
+        android:id="@+id/createdAt"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="@string/textview"
+        />
+
+    <TextView
+        android:id="@+id/setCount"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview"
+       />
+
+    <TextView
+        android:id="@+id/source"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview"
+    />
+
+    <TextView
+        android:id="@+id/__v"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="@string/textview"
+        />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:text="@string/textview" />
+
+    <TextView
+        android:id="@+id/deleted"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="@string/textview"
+        />
+
+    <TextView
+        android:id="@+id/verified"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="@string/textview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/textview" />
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/textview" />
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/textview" />
+
+    <TextView
+        android:id="@+id/updatetedAt"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="@string/textview" />
+
+    <TextView
+        android:id="@+id/used"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/textview" />
+
+
+</LinearLayout>
