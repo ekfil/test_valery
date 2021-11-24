@@ -12,6 +12,7 @@ class DetailActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail)
+
         var item = intent.getSerializableExtra("item") as ResponceItem
         text.text= "Text: ${item.text}"
         used.text="Used: ${item.used}"

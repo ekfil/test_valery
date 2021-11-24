@@ -3,10 +3,6 @@ package com.example.test_valery.presentation
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.PersistableBundle
-import android.text.Editable
-import android.text.TextWatcher
-import android.util.Log
 import android.view.Menu
 import android.view.View
 import android.widget.Toast
@@ -32,8 +28,8 @@ class MainActivity : AppCompatActivity() {
 
     private val CustomComparator =  Comparator<ResponceItem> { a, b ->
         when {
-            (a == null && b == null) -> 0
-            (a == null) -> -1
+            (a._id > b._id) -> 0
+            (a._id < b._id) -> -1
             else -> 1
         }
     }
